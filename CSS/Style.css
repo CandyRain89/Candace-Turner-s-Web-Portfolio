@@ -20,7 +20,7 @@
 .typing-overlay {
     text-align: center;
     color: white;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: BebasNeue-Regular; sans-serif;
   }
   @font-face {
     font-family: 'Bebas Neue';
@@ -92,7 +92,9 @@
   
   
   .toggle-switch {
-    position: relative;
+    position: fixed;
+    top: 1.25rem;
+    right: 1.25rem;
     display: inline-block;
     width: 3.75rem;
     height: 2.13rem;
@@ -147,3 +149,28 @@
   input:checked + .slider:before {
     transform: translateX(1.63rem);
   }    
+  /* end dark mode */
+
+  /* About Me Page  */
+  .section {
+    height: 100vh;
+    width: 100%;
+  }
+  
+  #section1 {
+    background-color: red;
+  }
+  
+  #section2 {
+    background-color: green;
+  }
+  
+  #section3 {
+    background-color: blue;
+  }
+  
+  .about-section {
+    background-image: url("images/aboutmebg.jpg");
+    background-size: cover;
+  }
+  
